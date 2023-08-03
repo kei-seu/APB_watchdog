@@ -16,7 +16,6 @@
 `include "apb_slave_sequencer.svh"
 `include "apb_slave_agent.svh"
 
-`include "kei_watchdog_adapter.sv"
 `include "apb_master_driver.sv"       
 `include "apb_master_monitor.sv"
 `include "apb_master_sequencer.sv"
