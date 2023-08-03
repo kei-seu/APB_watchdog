@@ -1,4 +1,12 @@
 
 kei_cmsdk_apb_watchdog_tb/.dvt
 kei_cmsdk_apb_watchdog_tb/.project
+kei_cmsdk_apb_watchdog_tb/sim/wlft*
+kei_cmsdk_apb_watchdog_tb/sim/VRMDATA*
+kei_cmsdk_apb_watchdog_tb/sim/regr_ucdb*
+kei_cmsdk_apb_watchdog_tb/sim/transcript
+kei_cmsdk_apb_watchdog_tb/sim/work
+kei_cmsdk_apb_watchdog_tb/sim/*.wlf
+kei_cmsdk_apb_watchdog_tb/sim/*.vstf
+kei_cmsdk_apb_watchdog_tb/sim/*.vrm
 *.log
