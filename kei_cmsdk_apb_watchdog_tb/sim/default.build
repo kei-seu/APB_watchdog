@@ -1,0 +1,26 @@
+# Automatically identify and compile all the source files in the project directory.
+# DO NOT explicitly list files/directories in 'dvt_auto_init' sections. Use 'dvt_init' sections instead.
++dvt_init
+-O0
+-novopt
+-uvm
+
++incdir+cfg
++incdir+cov
++incdir+reg
++incdir+seq_lib/elem_seq_lib
++incdir+seq_lib
++incdir+test
++incdir+env
++incdir+vip_lib/apb_pkg
++incdir+../cmsdk_apb_watchdog
+
+../cmsdk_apb_watchdog/cmsdk_apb_watchdog.v
+../cmsdk_apb_watchdog/cmsdk_apb_watchdog_defs.v
+../cmsdk_apb_watchdog/cmsdk_apb_watchdog_frc.v
+
+-sv vip_lib/apb_pkg/apb_if.sv
+-sv vip_lib/apb_pkg/apb_pkg.sv
+-sv env/kei_watchdog_pkg.sv
+-sv tb/kei_watchdog_if.sv
+-sv tb/kei_watchdog_tb.sv
