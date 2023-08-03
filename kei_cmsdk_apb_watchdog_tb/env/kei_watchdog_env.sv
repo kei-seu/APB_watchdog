@@ -2,7 +2,7 @@
 `ifndef KEI_WATCHDOG_ENV_SV
 `define KEI_WATCHDOG_ENV_SV
 
-class KEI_watchdog_env extends uvm_env;
+class kei_watchdog_env extends uvm_env;
 
   apb_master_agent apb_mst;
   kei_watchdog_virtual_sequencer virt_sqr;
