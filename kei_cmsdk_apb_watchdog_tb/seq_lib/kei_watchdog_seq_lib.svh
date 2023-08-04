@@ -4,6 +4,6 @@
 `include "kei_watchdog_element_sequences_lib.svh"
 `include "kei_watchdog_base_virtual_sequence.sv"
 `include "kei_watchdog_apbacc_virt_seq.sv"
-
+`include "kei_watchdog_regacc_virt_seq.sv"
 
 `endif 
