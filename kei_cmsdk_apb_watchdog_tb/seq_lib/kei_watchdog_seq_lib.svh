@@ -8,5 +8,6 @@
 `include "kei_watchdog_integration_virt_seq.sv"
 `include "kei_watchdog_resen_virt_seq.sv"
 `include "kei_watchdog_countdown_virt_seq.sv"
+`include "kei_watchdog_disable_intr_virt_seq.sv"
 
 `endif 
