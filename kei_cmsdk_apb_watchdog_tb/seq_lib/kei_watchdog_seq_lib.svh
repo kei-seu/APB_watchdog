@@ -7,5 +7,6 @@
 `include "kei_watchdog_regacc_virt_seq.sv"
 `include "kei_watchdog_integration_virt_seq.sv"
 `include "kei_watchdog_resen_virt_seq.sv"
+`include "kei_watchdog_countdown_virt_seq.sv"
 
 `endif 
