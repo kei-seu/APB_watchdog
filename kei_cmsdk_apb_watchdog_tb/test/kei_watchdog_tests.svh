@@ -8,5 +8,6 @@
 `include "kei_watchdog_resen_test.sv"
 `include "kei_watchdog_countdown_test.sv"
 `include "kei_watchdog_disable_intr_test.sv"
+`include "kei_watchdog_lock_test.sv"
 
 `endif // KEI_WATCHDOG_TESTS_SVH
